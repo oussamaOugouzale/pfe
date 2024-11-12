@@ -1,0 +1,179 @@
+body {
+    font-family: "Roboto";
+    overflow: auto;
+    height: 100%;
+
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    overflow: auto;
+    height: 100%;
+}
+
+.p1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100%;
+}
+
+.p2 {
+    display: grid;
+    grid-template-columns: 130px 130px;
+    border: solid;
+    height: 100px;
+    padding-top: 8px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #2ec8ef;
+    font-family: "Roboto";
+    background-color: #22313e;
+    width: 230px;
+    transform: translate(15%, 100%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chackbox {
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.box2 {
+    display: grid;
+    grid-template-rows: 60px 150px 40px 10px;
+    height: 100%;
+    position: fixed;
+    /* Change from absolute to fixed */
+    right: 0;
+    top: 0;
+    /* Add top property */
+    bottom: 0;
+}
+
+/* Additional styles as needed */
+.container>div {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.box1 {
+
+    background-color: #0d151f;
+    height: 90%;
+    text-align: center;
+}
+
+
+
+.box2 {
+    background-color: #121f2b;
+    z-index: 100;
+    transition: transform 0.3s ease-in-out;
+    width: 350px;
+    text-align: center;
+
+}
+
+.name {
+    text-align: left;
+    font-size: 32px;
+    margin-top: 16px;
+    margin-left: 18px;
+}
+
+/* Add this style block to your existing CSS */
+
+/* Styling for checkboxes */
+/* Styling for checkboxes */
+/* Style for the checkbox */
+.checkbox-input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 2px solid #0072dd;
+    border-radius: 4px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Style when checkbox is checked */
+.checkbox-input:checked {
+    background-color: #efefef;
+    border-color: #e02323;
+    color: #fff;
+}
+
+
+/* Style for the label next to the checkbox */
+label {
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.but {
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 70%;
+    right: 18%;
+    border: none;
+    font-size: 20px;
+    background-color: #37fd82;
+    font-weight: bold;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+.box3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-right: 30px;
+}
+
+.camera {
+    position: absolute;
+    background-color: #03090f;
+    top: 80px;
+    bottom: 30px;
+    left: 10px;
+    right: 10px;
+    width: 76%;
+}
+
+.sub_con {
+    display: grid;
+    position: static;
+    grid-template-columns: 20px 10px;
+}
+
+.img {
+    display: block;
+    /* Ensure the image behaves as a block element */
+    object-fit: cover;
+    /* Center the image horizontally within the container */
+}
